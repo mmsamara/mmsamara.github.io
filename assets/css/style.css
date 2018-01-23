@@ -1,0 +1,31 @@
+.nav-bar {
+	position: absolute;
+	height: 75px;
+}
+
+.nav-bar1 {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1em;
+	float: left;
+	height: 75px;
+	margin: 0px 0px 0px 50px;
+}
+
+.nav-bar2 {
+	float: left;
+	height: 75px;
+}
+
+.body {
+	position: absolute;
+	top: 100px; left: 50px;
+	width: 650px;
+}
+
+.connect {
+	position: absolute;
+	top: 100px; right: 30px;
+	width: 270px;
+}
