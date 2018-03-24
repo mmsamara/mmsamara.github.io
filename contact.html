@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Muhammad Samara</title>
+  <title>Contact | Muhammad Samara</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -23,33 +23,25 @@
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>Portfolio</h1>
+      <h1>Contact</h1>
 
-      <div class="work">
-        <img src="assets/images/JSNES-Cartridge.png" alt="Javascript">
-
-        <h3>Javascript</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/CSharpNES-Cartridge.png" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/ShoppingCartNES-Cartridge.png" alt="Trivia Game">
-
-        <h3>Shopping Cart</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/BlogNES-Cartridge.png" alt="Shopping Cart">
-
-        <h3>Blog</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/BugTrackerNES-Cartridge.png" alt="Rock Paper Scissors">
-
-        <h3>Bug Tracker</h3>
-      </div>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
     </section>
 
@@ -66,7 +58,7 @@
 
   <footer>
     <div class="container">
-      Copyright &copy; 
+      Site By Muhammad Samara &copy; 
     </div>
   </footer>
 </body>
